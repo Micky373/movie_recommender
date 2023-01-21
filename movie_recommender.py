@@ -1,14 +1,20 @@
 import pickle # For model loading
 import streamlit as st # For the UI
 import requests # For http requests
+import pandas as pd
+# For string vector conversion and similarity calculation
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 # Loading the dataset and similarity vectors
 
-with open('models/movie_list.pkl','rb') as f:
-    movies_df = pickle.load(f)
+movies_df = pd.read_csv('data/movies_df.csv')
 
-with open('models/similairty.pkl','rb') as f:
-    similarity = pickle.load(f)
+cv = CountVectorizer(max_features=5000,
+                    stop_words='english')
+vector = cv.fit_transform(movies_df['tags']).toarray()
+similarity = cosine_similarity(vector)
 
 # Creating movie titles array
 
