@@ -1,7 +1,8 @@
 import streamlit as st # For the UI
 import requests # For http requests
-import pandas as pd
-# For string vector conversion and similarity calculation
+import pandas as pd # For dataframe related tasks
+
+# For finding the similarity vector
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
