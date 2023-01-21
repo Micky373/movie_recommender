@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://micky373-movie-recommender-movie-recommender-30zzn3.streamlit.app/)
 
 
 ## Getting Started
