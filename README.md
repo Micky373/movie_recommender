@@ -1,65 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# End to end sentiment analysis
 
-# Project Name
+> In this project I used the movie data and created a movie recommendation user interface.
 
-> One paragraph statement about the project.
+The movie data contains more than 4800 movies and when a user passes title of any movie
+the website will come up with 10 related movies to recommend to the user.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images_and_gifs/app_screenshot.png)
 
-Additional description about the project and its features.
+
+<img  src="./images_and_gifs/demo.gif"> 
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://micky373-movie-recommender-movie-recommender-30zzn3.streamlit.app/)
-
+- Python
+- Streamlit
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+> git clone `https://github.com/Micky373/movie_recommender.git`
+> cd movie_recommender
+> pip install -r requirements.txt
+> streamlit run movie_recommender.py
+> Then go and on any browser put this link (http://localhost:8501/)
+> Then put a movie in the box or select from those in the list.
+> Then the website will show you the top 10 recommendations.
+> More clear discription about how the recommendation system was built and the API fetching can be found in the `notebooks` folder.
 
+## Live Demo
 
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link for the movie recommender](https://micky373-movie-recommender-movie-recommender-30zzn3.streamlit.app/)
 
-### Prerequisites
+## Author
 
-### Setup
+- GitHub: [@GitHub](https://github.com/Micky373)
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/michaeltamirie/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Micky373/movie_recommender/issues).
 
 ## Show your support
 
@@ -67,10 +49,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- Special thanks to [CampusX youtube channel](https://www.youtube.com/@campusx-official)

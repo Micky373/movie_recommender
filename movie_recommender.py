@@ -1,4 +1,3 @@
-import pickle # For model loading
 import streamlit as st # For the UI
 import requests # For http requests
 import pandas as pd
