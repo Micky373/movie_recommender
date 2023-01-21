@@ -85,25 +85,28 @@ if st.button('Show recommendations'):
 
     movie_names,movie_posters = recommend(selected_movies)
 
+    if len(movie_names) > 0  and len(movie_posters) > 0:
+        # Creating a five column display for easy look of our UI
 
-    # Creating a five column display for easy look of our UI
+        col1,col2,col3,col4,col5 = st.columns(5)
 
-    col1,col2,col3,col4,col5 = st.columns(5)
+        column_names = [col1,col2,col3,col4,col5]
 
-    column_names = [col1,col2,col3,col4,col5]
+        for i in range(10):
+            
+            if i >= 5:
+                column_index = i - 5
+            
+            else:
+                column_index = i
+            
+            # Displaying all the images and movie titles
 
-    for i in range(10):
-        
-        if i >= 5:
-            column_index = i - 5
-        
-        else:
-            column_index = i
-        
-        # Displaying all the images and movie titles
-
-        with column_names[column_index]:
-            st.text(movie_names[i])
-            st.image(movie_posters[i])
+            with column_names[column_index]:
+                st.text(movie_names[i])
+                st.image(movie_posters[i])
+    
+    else:
+        st.header('No related movies here')
 
         
