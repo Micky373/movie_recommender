@@ -19,12 +19,19 @@ the website will come up with 10 related movies to recommend to the user.
 ## Getting Started
 
 > git clone `https://github.com/Micky373/movie_recommender.git`
+
 > cd movie_recommender
+
 > pip install -r requirements.txt
+
 > streamlit run movie_recommender.py
+
 > Then go and on any browser put this link (http://localhost:8501/)
+
 > Then put a movie in the box or select from those in the list.
+
 > Then the website will show you the top 10 recommendations.
+
 > More clear discription about how the recommendation system was built and the API fetching can be found in the `notebooks` folder.
 
 ## Live Demo
