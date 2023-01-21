@@ -16,7 +16,7 @@ the website will come up with 10 related movies to recommend to the user.
 - Python
 - Streamlit
 
-## Getting Started
+## Getting Started Locally
 
 > git clone `https://github.com/Micky373/movie_recommender.git`
 
