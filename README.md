@@ -1,4 +1,4 @@
-# End to end sentiment analysis
+# Movie Recommender
 
 > In this project I used the movie data and created a movie recommendation user interface.
 
