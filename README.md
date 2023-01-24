@@ -16,6 +16,10 @@ the website will come up with 10 related movies to recommend to the user.
 - Python
 - Streamlit
 
+## Live Demo
+
+[Live Demo Link for the movie recommender](https://micky373-movie-recommender-movie-recommender-30zzn3.streamlit.app/)
+
 ## Getting Started Locally
 
 > git clone `https://github.com/Micky373/movie_recommender.git`
@@ -33,10 +37,6 @@ the website will come up with 10 related movies to recommend to the user.
 > Then the website will show you the top 10 recommendations.
 
 > More clear discription about how the recommendation system was built and the API fetching can be found in the `notebooks` folder.
-
-## Live Demo
-
-[Live Demo Link for the movie recommender](https://micky373-movie-recommender-movie-recommender-30zzn3.streamlit.app/)
 
 ## Author
 
